@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Truck Booking App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+</head>
+<body>
+
+  <div class="app">
+    <div class="booking-section">
+      <h2>Pickup & Drop</h2>
+      <input type="text" id="pickup" placeholder="Enter Pickup Location" />
+      <input type="text" id="drop" placeholder="Enter Drop Location" />
+
+      <button id="checkTrucksBtn">Check Available Trucks</button>
+    </div>
+
+    <div class="map-section" id="map"></div>
+
+    <div id="truckSelection" class="hidden">
+      
+      <div class="details">
+        <strong>Estimated:</strong><br>
+        Distance: <span id="distance">-</span><br>
+        Duration: <span id="duration">-</span><br>
+        Price: <span id="price">-</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
