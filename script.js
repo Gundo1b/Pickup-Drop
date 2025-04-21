@@ -68,7 +68,7 @@ async function getRoute() {
     const res = await fetch(url, {
       method: 'POST',
       headers: {
-        'Authorization': apiKey,
+        'Authorization': '5b3ce3597851110001cf62483d6287df4af94372b6dab9cee7e6ffe8',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ coordinates: coords }),
