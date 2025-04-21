@@ -12,14 +12,25 @@ Leaflet.js for interactive maps
 
 OpenRouteService API for routing and distance calculation
 
-Custom UI for truck selection and estimated pricing
 
 🗺️ Features
 Pickup and Dropoff Fields: Users enter locations (above the map)
 
 Map View: Interact with the map and pin locations
 
-Available Trucks Section: Shows truck options (below the map)
+
 
 Estimated Charges: Displays calculated distance, duration, and price
+ Getting Started
+Clone the repo or download the ZIP
 
+Replace the API key in script.js with your OpenRouteService key
+
+Open index.html in your browser
+
+🔑 OpenRouteService API
+Sign up at https://openrouteservice.org/
+
+Get your free API key
+
+Paste it in your script.js where indicated
